@@ -19,9 +19,13 @@ const Header = () => {
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
+            <a href="#home" className="text-foreground hover:text-primary transition-colors duration-300">Home</a>
             <a href="#features" className="text-foreground hover:text-primary transition-colors duration-300">Features</a>
+            <a href="#assistance" className="text-foreground hover:text-primary transition-colors duration-300">Assistance</a>
+            <a href="#experience" className="text-foreground hover:text-primary transition-colors duration-300">Experience</a>
+            <a href="#testimonials" className="text-foreground hover:text-primary transition-colors duration-300">Testimonials</a>
             <a href="#pricing" className="text-foreground hover:text-primary transition-colors duration-300">Pricing</a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors duration-300">About</a>
+            <a href="#blog" className="text-foreground hover:text-primary transition-colors duration-300">Blog</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors duration-300">Contact</a>
           </nav>
 
@@ -48,9 +52,13 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-border/50 menu-slide">
             <nav className="flex flex-col space-y-4">
+              <a href="#home" className="text-foreground hover:text-primary transition-colors duration-300">Home</a>
               <a href="#features" className="text-foreground hover:text-primary transition-colors duration-300">Features</a>
+              <a href="#assistance" className="text-foreground hover:text-primary transition-colors duration-300">Assistance</a>
+              <a href="#experience" className="text-foreground hover:text-primary transition-colors duration-300">Experience</a>
+              <a href="#testimonials" className="text-foreground hover:text-primary transition-colors duration-300">Testimonials</a>
               <a href="#pricing" className="text-foreground hover:text-primary transition-colors duration-300">Pricing</a>
-              <a href="#about" className="text-foreground hover:text-primary transition-colors duration-300">About</a>
+              <a href="#blog" className="text-foreground hover:text-primary transition-colors duration-300">Blog</a>
               <a href="#contact" className="text-foreground hover:text-primary transition-colors duration-300">Contact</a>
               <div className="flex flex-col space-y-2 pt-4 border-t border-border/50">
                 <Button variant="ghost" className="text-foreground hover:text-white hover:bg-primary/20 justify-start transition-all duration-300">
