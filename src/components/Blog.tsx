@@ -101,7 +101,7 @@ const Blog = () => {
 
         {/* View all button */}
         <div className="text-center mt-16">
-          <button className="btn-secondary group">
+          <button className="btn-secondary group flex items-center">
             View All Articles
             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
           </button>

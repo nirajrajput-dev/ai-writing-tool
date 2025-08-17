@@ -44,7 +44,7 @@ const IntelligentWriting = () => {
               ))}
             </div>
 
-            <button className="btn-primary group">
+            <button className="btn-primary group flex items-center">
               Explore Features
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>

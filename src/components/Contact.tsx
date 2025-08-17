@@ -51,12 +51,13 @@ const Contact = () => {
 
                 <div>
                   <label className="block text-sm font-medium text-card-foreground mb-2">
-                    Email
+                    Enter your email
                   </label>
                   <Input 
                     type="email" 
                     placeholder="john@example.com" 
                     className="bg-background-secondary border-border/50 focus:border-primary transition-colors duration-300"
+                    required
                   />
                 </div>
 
@@ -81,7 +82,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <button className="btn-primary w-full group">
+                <button className="btn-primary w-full group flex items-center justify-center">
                   Send Message
                   <Send className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </button>

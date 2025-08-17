@@ -119,7 +119,7 @@ const Testimonials = () => {
 
         {/* View more button */}
         <div className="text-center mt-16">
-          <button className="btn-secondary group">
+          <button className="btn-secondary group flex items-center">
             View More Reviews
             <Star className="ml-2 w-4 h-4 group-hover:scale-110 transition-transform duration-300" />
           </button>

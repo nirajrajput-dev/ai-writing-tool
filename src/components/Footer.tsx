@@ -58,7 +58,7 @@ const Footer = () => {
                 placeholder="Enter your email" 
                 className="flex-1 bg-background border-border/50 focus:border-primary"
               />
-              <button className="btn-primary group">
+              <button className="btn-primary group flex items-center">
                 Get Started
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
               </button>

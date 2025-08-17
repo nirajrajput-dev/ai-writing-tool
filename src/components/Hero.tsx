@@ -28,11 +28,11 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 fade-in-up" style={{ animationDelay: "0.6s" }}>
-            <button className="btn-primary group">
+            <button className="btn-primary group flex items-center">
               Start Writing Now
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
-            <button className="btn-secondary">
+            <button className="btn-secondary flex items-center">
               Watch Demo
             </button>
           </div>
@@ -52,8 +52,10 @@ const Hero = () => {
 
       {/* Floating elements */}
       <div className="absolute top-1/4 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl float-animation" />
-      <div className="absolute bottom-1/4 right-10 w-32 h-32 bg-accent/20 rounded-full blur-xl float-animation" style={{ animationDelay: "-1.5s" }} />
+      <div className="absolute bottom-1/4 right-10 w-32 h-32 bg-accent/20 rounded-full blur-xl float-orbit" style={{ animationDelay: "-2s" }} />
       <div className="absolute top-1/2 right-1/4 w-16 h-16 bg-primary/30 rounded-full blur-lg float-animation" style={{ animationDelay: "-3s" }} />
+      <div className="absolute top-3/4 left-1/3 w-24 h-24 bg-accent/15 rounded-full blur-2xl float-orbit" style={{ animationDelay: "-4s" }} />
+      <div className="absolute top-1/3 right-12 w-12 h-12 bg-primary/25 rounded-full blur-md float-animation" style={{ animationDelay: "-1s" }} />
     </section>
   );
 };

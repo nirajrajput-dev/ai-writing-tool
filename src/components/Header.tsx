@@ -27,10 +27,10 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" className="text-foreground hover:text-primary">
+            <Button variant="ghost" className="text-foreground hover:text-white hover:bg-primary/20 transition-all duration-300">
               Sign In
             </Button>
-            <button className="btn-primary">
+            <button className="btn-primary flex items-center">
               Get Started
             </button>
           </div>
@@ -46,17 +46,17 @@ const Header = () => {
 
         {/* Mobile menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border/50">
+          <div className="md:hidden py-4 border-t border-border/50 menu-slide">
             <nav className="flex flex-col space-y-4">
               <a href="#features" className="text-foreground hover:text-primary transition-colors duration-300">Features</a>
               <a href="#pricing" className="text-foreground hover:text-primary transition-colors duration-300">Pricing</a>
               <a href="#about" className="text-foreground hover:text-primary transition-colors duration-300">About</a>
               <a href="#contact" className="text-foreground hover:text-primary transition-colors duration-300">Contact</a>
               <div className="flex flex-col space-y-2 pt-4 border-t border-border/50">
-                <Button variant="ghost" className="text-foreground hover:text-primary justify-start">
+                <Button variant="ghost" className="text-foreground hover:text-white hover:bg-primary/20 justify-start transition-all duration-300">
                   Sign In
                 </Button>
-                <button className="btn-primary text-left">
+                <button className="btn-primary text-left flex items-center">
                   Get Started
                 </button>
               </div>
