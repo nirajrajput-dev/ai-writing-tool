@@ -42,7 +42,7 @@ const features = [
 
 const Features = () => {
   return (
-    <section id="features" className="py-24 relative">
+    <section id="features" className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-6">
         {/* Section header */}
         <div className="text-center mb-20">
