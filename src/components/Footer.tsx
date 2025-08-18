@@ -41,7 +41,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="relative bg-background-secondary border-t border-border/50">
+    <footer className="relative bg-background-secondary border-t border-border/50 overflow-hidden">
       {/* Newsletter section */}
       <div className="border-b border-border/50">
         <div className="container mx-auto px-6 py-16">
