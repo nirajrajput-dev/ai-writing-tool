@@ -50,7 +50,7 @@ const Features = () => {
             <Sparkles className="w-4 h-4 text-primary" />
             <span className="text-sm text-muted-foreground">Powerful Features</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Key Features of Our Tool
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

@@ -20,7 +20,7 @@ const IntelligentWriting = () => {
               <span className="text-sm text-muted-foreground">✨ AI-Powered Assistant</span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
               Intelligent Writing Assistance
             </h2>
             

@@ -13,7 +13,7 @@ const Contact = () => {
             <Mail className="w-4 h-4 text-primary" />
             <span className="text-sm text-muted-foreground">Get In Touch</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Contact With Us
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

@@ -34,7 +34,7 @@ const Blog = () => {
             <Calendar className="w-4 h-4 text-primary" />
             <span className="text-sm text-muted-foreground">Knowledge Hub</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Latest Blogs & News
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -101,7 +101,7 @@ const Blog = () => {
 
         {/* View all button */}
         <div className="text-center mt-16">
-          <button className="btn-secondary group flex items-center">
+          <button className="btn-secondary group flex items-center mx-auto">
             View All Articles
             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
           </button>

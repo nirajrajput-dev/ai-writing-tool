@@ -13,7 +13,7 @@ const Hero = () => {
           </div>
 
           {/* Main heading */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 fade-in-up" style={{
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 fade-in-up" style={{
           animationDelay: "0.2s"
         }}>
             Elevate Your Content with Our{" "}
@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed fade-in-up" style={{
+          <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed fade-in-up" style={{
           animationDelay: "0.4s"
         }}>
             Transform your ideas into compelling content with advanced AI technology. 
